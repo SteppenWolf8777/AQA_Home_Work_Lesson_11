@@ -11,11 +11,11 @@ def test_practice_form(setup_browser):
         form.open()
 
     with allure.step("Заполняем имя и фамилию"):
-        form.fill_last_name("Doe")
-        form.fill_first_name("John")
+        form.fill_last_name("Rus")
+        form.fill_first_name("Alex")
 
     with allure.step("Вводим email"):
-        form.fill_email('john.doe@example.com')
+        form.fill_email('Alex.Rus@example.com')
 
     with allure.step("Выбираем пол"):
         form.select_gender()
