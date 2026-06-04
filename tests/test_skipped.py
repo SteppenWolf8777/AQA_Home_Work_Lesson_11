@@ -12,3 +12,5 @@ def test_skipped2():
 @pytest.mark.skip
 def test_skipped3():
     pass
+
+
